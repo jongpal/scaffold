@@ -1,4 +1,4 @@
-[![Python scaffolding with github actions](https://github.com/jongpal/scaffold/actions/workflows/main.yml/badge.svg)](https://github.com/jongpal/scaffold/actions/workflows/main.yml)
+[![Python 3.8](https://github.com/jongpal/scaffold/actions/workflows/python38.yml/badge.svg)](https://github.com/jongpal/scaffold/actions/workflows/python38.yml)
 
 
 # scaffold
