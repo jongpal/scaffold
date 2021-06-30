@@ -1,23 +1,20 @@
-name: Python scaffolding with github actions
+name: Python 3.7
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
+    - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
-        python-version: 3.8
+        python-version: 3.7
     - name: install dependencies
       run: |
-        make install
+        make install-azure
     - name: lint with pylint
       run: |
         make lint
     - name: test with pytest
       run: |
         make test
-    - name: format code with python black
-      run: |
-        make format
