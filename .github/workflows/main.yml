@@ -1,4 +1,4 @@
-name: Python scaffolding with github actions
+name: Python 3.8
 on: [push]
 jobs:
   build:
