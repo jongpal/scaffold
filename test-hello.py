@@ -1,4 +1,4 @@
-from hello import add, hello
+from hello import add, hello, subtract
 
 def test_hello():
     result = hello()
